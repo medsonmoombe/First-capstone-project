@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.mobile-main-page {
+    background-image: url("assets/images/mobile-music-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;height: 100vh;
+    width: 100%;
+}
+
+nav a img.humber {
+    padding: 20px;
+    color: white;
+}
+.hero-intro {
+    display: flex;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+    padding: 19px;
+}
+
+.hello-head {
+    font-size: 33px;
+    width: 94%;
+}
+
+.festival-heading {
+    font-size: 36px;
+    width: 100%;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.mobile-para-1 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #d3d3d3;
+}
+
+.program-main-sec {
+    background-color: #272a31;
+}
+
+.programs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program-img1 {
+    width: 50%;
+    height: 68px;
+}
+
+.program-head {
+    font-size: 25px;
+    font-weight: 400;
+}
