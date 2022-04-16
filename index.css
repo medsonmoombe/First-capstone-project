@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 nav a img.humber {
@@ -49,6 +50,7 @@ nav a img.humber {
 
 .program-main-sec {
     background-color: #272a31;
+    margin-top: 18px;
 }
 
 .main-pro {
@@ -58,7 +60,7 @@ nav a img.humber {
 }
 
 .pro-heading {
-    font-size: 40px;
+    font-size: 30px;
     color: #ffff;
     font-weight: 900;
     text-align: center;
@@ -96,4 +98,87 @@ nav a img.humber {
     font-size: 12px;
     width: 87%;
     color: #ffff;
+}
+
+.reseve-sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserve-btn {
+    background-color: #ec5242;
+    color: #fff;
+    padding: 20px;
+    border: 0;
+    width: 221px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 47px;
+}
+
+.spakers-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.speaker-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span-speaker {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+}
+
+.speaker-details {
+   gap: 20px;
+}
+
+.speaker-img {
+    width: 134px;
+
+}
+
+.speaker-name {
+    font-size: 30px;
+  font-weight: 500;
+}
+
+.speaker-infor {
+    color: #ec5242;
+    font-size: 19px;
+}
+
+.para-speaker {
+    font-size: 15px;
+    color: #272a31;
+}
+
+.main-speakers {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.spk-heading {
+    font-size: 30px;
+    color: #272a31;
+    font-weight: 900;
+    text-align: center;
+}
+
+.spk-hr {
+    width: 24%;
+    height: 0;
+    color: #ec5242;
+    border: 1px solid;
+    margin-left: 39%;
+    margin-top: 9px;
 }
