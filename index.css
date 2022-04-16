@@ -8,7 +8,7 @@
 .mobile-main-page {
     background-image: url("assets/images/mobile-music-bg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;height: 100vh;
+    background-size: cover;
     width: 100%;
 }
 
@@ -51,10 +51,34 @@ nav a img.humber {
     background-color: #272a31;
 }
 
+.main-pro {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.pro-heading {
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-hr {
+    width: 24%;
+    height: 0;
+    color: #ec5242;
+    border: 1px solid;
+    margin-left: 39%;
+    margin-top: 9px;
+}
+
 .programs {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    gap: 24px;
 }
 
 .program-img1 {
@@ -65,4 +89,11 @@ nav a img.humber {
 .program-head {
     font-size: 25px;
     font-weight: 400;
+    color: #ec5242;
+}
+
+.program-para {
+    font-size: 12px;
+    width: 87%;
+    color: #ffff;
 }
