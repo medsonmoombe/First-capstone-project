@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    background-image: url("assets/images/music-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-nav {
+    color: #fff;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #d3d3d3;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+.humb {
+    padding: 10px;
+}
+
+.About-intro-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 157px;
+}
+
+.about-welcome-heading {
+    color: #ec5242;
+    font-size: 29px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.about-second-heading {
+    font-size: 58px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    line-height: 53px;
+}
+
+.about-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.about-para {
+    font-size: 28px;
+    line-height: 29px;
+    color: #d3d3d3;
+    font-weight: 500;
+}
+
+.about-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact-info {
+    font-size: 22px;
+    color: #d3d3d3;
+    width: 80%;
+    font-weight: 500;
+}
+
+.about-email {
+    font-size: 22px;
+    color: #d3d3d3;
+    text-decoration: underline;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.pro-heading {
+    font-size: 30px;
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-hr {
+    width: 24%;
+    height: 0;
+    color: #ec5242;
+    border: 1px solid;
+    margin-left: 39%;
+    margin-top: 9px;
+}
+
+.logo-description {
+    font-size: 20px;
+    line-height: 29px;
+    color: #d3d3d3;
+    font-weight: 500;
+    width: 97%;
+}
+
+.festival-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    border: 1px solid #d3d3d3;
+}
+
+.logo {
+    width: 350px;
+}
+
+.history-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20p
+}
+
+.main-history {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.head-history {
+    font-size: 30px;
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.history-hr {
+    width: 24%;
+    height: 0;
+    color: #ec5242;
+    border: 1px solid;
+    margin-left: 39%;
+    margin-top: 9px;
+}
+
+.history-description {
+    font-size: 20px;
+    line-height: 29px;
+    color: #d3d3d3;
+    font-weight: 500;
+    width: 97%;
+}
+
+.history-img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.img-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.hist-img {
+    width: 344px;
+}
+
+.overlay img.hist-img::before {
+    content: "";
+    background: rgba(211, 102, 83, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.history-para {
+    font-size: 27px;
+    line-height: 29px;
+    color: #d3d3d3;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    width: 68%;
+    margin-top: -143px;
+    text-align: center;
+}
+
+.year-hist {
+    display: block;
+    text-align: center;
+}
+
+.about-partners {
+    background-color: #272a31;
+}
+
+.main-partner {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.partner-hr {
+    width: 24%;
+    height: 0;
+    color: #ec5242;
+    border: 1px solid;
+    margin-left: 39%;
+    margin-top: 9px;
+    margin-bottom: 30px; 
+}
+
+.img-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ptn-img {
+    width: 137px;
+    height: 75px;
+}
+
