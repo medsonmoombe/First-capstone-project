@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Lato:wght@300;900&family=Poppins&family=Roboto&display=swap"
      rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    
     <title>Musical concert</title>
 </head>
  
@@ -18,7 +19,7 @@
     <section class="mobile-main-page">
         <header class="opening-header">
             <nav class="desk-nav">
-                <li class="desk-menu-list1"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="desk-menu-list1"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                     <li class="desk-menu-list1"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                     <li class="desk-menu-list1"><a href="#">English</a></li>
                     <li class="desk-menu-list1"><a href="#">My Page</a></li>
@@ -26,13 +27,17 @@
             </nav>
             <nav class="second-nav">
                 <a href="#"><img class="humber" src="assets/images/menu-1.png" alt="humburger-menu"></a>
+                <!-- <a href="#"><i class="fa-solid hidden fa-xmark"></i></a> -->
+               
                 <ul class="desk-menu">
-                    <li class="desk-menu-list"><a href="#">About</a></li>
-                    <li class="desk-menu-list"><a href="#">Program</a></li>
-                    <li class="desk-menu-list"><a href="#">Join</a></li>
-                    <li class="desk-menu-list"><a href="#">Sponsor</a></li>
-                    <li class="desk-menu-list"><a href="#">News</a></li>
-                    <li class="desk-menu-list border-item"><a href="#">Campaign</a></li>
+                    <a href="./index.html"><img class="musical" src="assets/images/musical.png" alt="humbegur menu"></a>
+                    <li class="desk-menu-list about-red hidden"><a href="./about.html">About</a></li>
+                    <li class="desk-menu-list hidden"><a href="#">Program</a></li>
+                    <li class="desk-menu-list hidden"><a href="#">Join</a></li>
+                    <li class="desk-menu-list hidden"><a href="#">Sponsor</a></li>
+                    <li class="desk-menu-list hidden"><a href="#">News</a></li>
+                    <li class="desk-menu-list border-item hidden"><a href="#">Campaign</a></li>
+                 <div class="closeMenu hidden"><i class="fa fa-times"></i></div>
                 </ul>
             </nav>
         </header>
@@ -69,25 +74,25 @@
                 elit. Minus architecto </p>
         </div>
         <div class="programs">
-            <img class="program-img1" src="assets/images/program1.png" alt="program icon">
+            <img class="program-img1" src="assets/images/program2.png" alt="program icon">
             <h4 class="program-head">lecture</h4>
             <p class="program-para">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Minus architecto </p>
         </div>
         <div class="programs">
-            <img class="program-img1" src="assets/images/program1.png" alt="program icon">
+            <img class="program-img1" src="assets/images/program3.png" alt="program icon">
             <h4 class="program-head">lecture</h4>
             <p class="program-para">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Minus architecto </p>
         </div>
         <div class="programs">
-            <img class="program-img1" src="assets/images/program1.png" alt="program icon">
+            <img class="program-img1" src="assets/images/program4.png" alt="program icon">
             <h4 class="program-head">lecture</h4>
             <p class="program-para">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Minus architecto </p>
         </div>
         <div class="programs">
-            <img class="program-img1" src="assets/images/program1.png" alt="program icon">
+            <img class="program-img1" src="assets/images/program5.png" alt="program icon">
             <h4 class="program-head">lecture</h4>
             <p class="program-para">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Minus architecto </p>
@@ -97,6 +102,9 @@
         </div>
       </div>
        <button class="reserve-btn">Reseve Your Sport</button>
+       <div class="desk-btn">
+       <a class="reserve-btn1" href="#">SEE THE WHOLE PROGRAM</a> 
+        </div>
     </section>
 
     <section class="spakers-section">
@@ -150,6 +158,30 @@
 
 
     </section>
+
+    <section class="about-partners">
+        <div class="main-partner">
+            <h3 class="head-partners">Partners</h3>
+            <hr class="partner-hr">
+        </div>
+        <div class="img-p">
+        <div class="partner1"><img class="ptn-img" src="assets/icons/naptsa-icon.png" alt=""></div>
+        <div class="partner1"><img class="ptn-img" src="assets/icons/copperbelt-province.png" alt=""></div>
+        <div class="partner1"><img class="ptn-img" src="assets/icons/standard-chartered.png" alt=""></div>
+        <div class="partner1"><img class="ptn-img" src="assets/icons/partner-1.png" alt=""></div>
+       </div>
+    </section>
+    <footer class="footer">
+        <div class="logo-footer">
+         <img class="footer-img" src="assets/images/musical.png" alt="">
+        </div>
+        <div class="rights-reserved">
+            <p class="rights">2022 Luaska Musical Festival, some rights Reserved. </p>
+            <p class="para-rights">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati quos dolorem.</p>
+        </div>
+    </footer>
+
+    <script src="./menu.js"></script>  
 </body>
 
 </html>

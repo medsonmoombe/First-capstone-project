@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b331332bf9.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Lato:wght@300&family=Poppins&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="About.css">
@@ -11,9 +12,28 @@
 </head>
 <body>
     <header class="about">
-        <nav class="about-nav">
-            <a href="#"><img class="humb" src="assets/images/menu-1.png" alt="humbegur menu"></a>
+        <nav class="desk-nav">
+                <li class="desk-menu-list1"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class="desk-menu-list1"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="desk-menu-list1"><a href="#">English</a></li>
+                <li class="desk-menu-list1"><a href="#">My Page</a></li>
+                <li class="desk-menu-list1"><a href="#">Logout</a></li>
+            
+         </nav>
 
+        <nav class="about-nav second-nav">
+            
+            <a href="#"><img class="humber" src="assets/images/menu-1.png" alt="humbegur menu"></a>
+            <ul class="desk-menu">
+                <a href="./index.html"><img class="musical" src="assets/images/musical.png" alt="humbegur menu"></a>
+                <li class="desk-menu-list about-red hidden"><a href="./index.html">Home</a></li>
+                <li class="desk-menu-list hidden"><a href="#">Program</a></li>
+                <li class="desk-menu-list hidden"><a href="#">Join</a></li>
+                <li class="desk-menu-list hidden"><a href="#">Sponsor</a></li>
+                <li class="desk-menu-list hidden"><a href="#">News</a></li>
+                <li class="desk-menu-list border-item hidden"><a href="#">Campaign</a></li>
+                <div class="closeMenu hidden"><i class="fa fa-times"></i></div>
+            </ul>
         </nav>
         <div class="About-intro-head">
             <h1 class="about-welcome-heading">
@@ -54,16 +74,15 @@
 
     <section class="history-section">
         <div class="main-history">
-            <h3 class="head-history">Creative Commons Lusaka Musical Festival 2022 logo</h3>
+            <h3 class="head-history">See the History</h3>
             <hr class="history-hr">
         </div>
         <p class="history-description">
-           The Logo of the Lusaka Musical Festival 2022 was descided through the
-            logo competition from 8. january to 11. febuary
+           Take a look at the two last Lusaka Musical Festivals which took place at heros Stadium
         </p>
         <div class="history-img-div ">
             <div class="img-h overlay">
-            <img class="hist-img " src="assets/images/history-img1.jpg" alt="luska musical festival logo">
+            <img class="hist-img" src="assets/images/history-img1.jpg" alt="luska musical festival logo">
             <p class="history-para"><span class="year-hist">2014</span>Lusaka Musical Festival at hero Stadium</p>
 
             <img class="hist-img" src="assets/images/history-img2.jpg" alt="luska musical festival logo">
@@ -79,16 +98,22 @@
         </div>
         <div class="img-p">
         <div class="partner1"><img class="ptn-img" src="assets/icons/partner-1.png" alt=""></div>
-        <div class="partner1"><img class="ptn-img" src="assets/images/nexus-logo.jpg" alt=""></div>
-        <div class="partner1"><img class="ptn-img" src="assets/images/stanbic-logo.jpg" alt=""></div>
-        <div class="partner1"><img class="ptn-img" src="assets/images/trade-kings.jpg" alt=""></div>
-        <div class="partner1"><img class="ptn-img" src="assets/images/zanaco-log.jpg" alt=""></div>
+        <div class="partner1"><img class="ptn-img" src="assets/icons/copperbelt-province.png" alt=""></div>
+        <div class="partner1"><img class="ptn-img" src="assets/icons/naptsa-icon.png" alt=""></div>
+        <div class="partner1"><img class="ptn-img" src="assets/icons/standard-chartered.png" alt=""></div>
        </div>
     </section>
     <footer class="footer">
-        <div class="">
-
+        <div class="logo-footer">
+         <img class="footer-img" src="assets/images/musical.png" alt="">
+        </div>
+        <div class="rights-reserved">
+            <p class="rights">2022 Luaska Musical Festival some rights Reserved </p>
+            <p class="para-rights">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati quos dolorem.</p>
         </div>
     </footer>
+
+
+    <script src="./menu.js"></script>  
 </body>
 </html>
