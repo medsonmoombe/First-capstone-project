@@ -623,8 +623,9 @@ nav a img.humber {
   .expand {
     height: 100vh;
     margin: 0;
-    padding: 1.5rem 0.8rem;
+    padding: 2.5rem 0.8rem;
     display: flex;
+    justify-content: center;
     align-items: flex-start;
   }
   
