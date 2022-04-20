@@ -1,9 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # The capstone project
+![image](https://user-images.githubusercontent.com/98400013/164287436-65743e84-eee5-4b4a-8560-f339d46a8b8f.png)
+
+
 
 > Description the project.
-Check the video[ here](https://www.loom.com/share/e5b6f7ba5f594b55909903cda07aaf61)
+> this project is about the capstone i did during Microverse to showcase the understanding of HTML,CSS and JAVASCRIPT
+
 
 ## Built With
 
@@ -14,6 +18,9 @@ Check the video[ here](https://www.loom.com/share/e5b6f7ba5f594b55909903cda07aaf
 ## Live Demo (if available)
 
 [Live Demo Link](https://medsonmoombe.github.io/First-capstone-project/)
+
+##  video (documentation)
+
 Check the video[ here](https://www.loom.com/share/e5b6f7ba5f594b55909903cda07aaf61)
 
 
@@ -54,10 +61,10 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+
 
 ## 📝 License
 
