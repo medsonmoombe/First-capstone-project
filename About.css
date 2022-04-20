@@ -389,6 +389,10 @@
         font-size: 16px;
     }
 
+    ul .hidden {
+        display: block;
+    }
+
     .about-red a {
         color: #ec5242;
     }
