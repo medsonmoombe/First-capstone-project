@@ -1,56 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# The capstone project
+![image](https://user-images.githubusercontent.com/98400013/164287436-65743e84-eee5-4b4a-8560-f339d46a8b8f.png)
+
+
 
 > Description the project.
+> this project is about the capstone i did during Microverse to showcase the understanding of HTML,CSS and JAVASCRIPT
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://medsonmoombe.github.io/First-capstone-project/)
+
+##  video (documentation)
+
+Check the video[ here](https://www.loom.com/share/e5b6f7ba5f594b55909903cda07aaf61)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Web browser
+- Code editor
+
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+```bash
+git clone https://github.com/medsonmoombe/First-capstone-project
+cd First-capstone-project
+```
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@medsonmoombe](https://github.com/medsonmoombe)
+- Twitter: [@emmanue78388405](https://twitter.com/@emmanue78388405)
+- LinkedIn: [Emmanuel moombe](https://linkedin.com/in/Emmanuel moombe)
 
 ## 🤝 Contributing
 
@@ -63,10 +61,10 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+
 
 ## 📝 License
 
