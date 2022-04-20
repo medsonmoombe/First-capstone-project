@@ -478,6 +478,7 @@
 
   .about-welcome-heading {
     text-align: center;
+    padding-top: inherit;
   }
 
   .about-second-heading {
