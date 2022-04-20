@@ -45,7 +45,7 @@ nav a img.humber {
     justify-content: center;
     color: #fff;
     padding: 19px;
-    padding-top: 38%;
+    padding-top: 19%;
     width: 100%;
 }
 
@@ -82,11 +82,11 @@ nav a img.humber {
 }
 
 .dat-1 {
- font-size: 28px;
+ font-size: 24px;
 }
 
 .dat-para {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .program-main-sec {
@@ -630,11 +630,10 @@ nav a img.humber {
   }
   
   .close-show {
-    display: block;
-    position: relative;
-    left: 0;
-    top: 0;
-    margin-top: -519px;
+    position: absolute;
     font-size: 30px;
     color: #d3d3d3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
