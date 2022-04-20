@@ -110,7 +110,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding-top: 157px;
+  padding-top: 85px;
 }
 
 .about-welcome-heading {
@@ -122,7 +122,7 @@
 }
 
 .about-second-heading {
-  font-size: 49px;
+  font-size: 3rem;
   width: 100%;
   font-family: 'poppins', sans-serif;
   color: #ec5242;
